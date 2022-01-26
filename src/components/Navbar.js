@@ -58,7 +58,7 @@ const NavbarComponent = () => {
               </NavLink>
             </Button>{" "}
             <Button variant="light" size="sm" active>
-              <NavLink to="/form" className="link">
+              <NavLink to="/login" className="link">
                 Iniciar sesion
               </NavLink>
             </Button>{" "}
