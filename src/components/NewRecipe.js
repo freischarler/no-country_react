@@ -151,7 +151,7 @@ const NewRecipe = () => {
                       onChange={ handleIngredientsChange }
                     />
 
-                  <span class="input-group-btn">
+                  <span className="input-group-btn">
                     <button className="btn btn-primary ml-2"
                       id="enter" 
                       type="button"
@@ -184,7 +184,7 @@ const NewRecipe = () => {
                       value={descripciones}
                       onChange={ handleDescriptionChange }
                     />
-                  <span class="input-group-btn">
+                  <span className="input-group-btn">
                     <button className="btn btn-primary ml-2" 
                       id="enter" 
                       type="button"
