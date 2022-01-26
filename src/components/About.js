@@ -14,6 +14,16 @@ function About () {
               <h1>Contactos de <span>Recetas faciles!</span></h1>
               <h3 className="mb-2">Sitio web hecho por juniors!</h3>
               <p className="about-paddingB"></p>
+                
+                <div className="about-icons"> 
+                  <ul >
+                    <li><a href="https://go.dev/"><i id="social-golang" className="fa-brands fa-golang"></i></a> </li>
+                    <li><a href="https://es.reactjs.org/"><i id="social-react" className="fab fa-react"></i></a> </li>
+                    <li> <a href="https://www.postgresql.org/"><i id="social-gp" className="fas fa-database"></i></a> </li>
+                  </ul>       
+                </div>
+
+
                 <hr></hr>
                 <p><a href="mailto:es@rf.com?Subject=Consulta" class="text-decoration-none">Erika Belen Sandoval</a></p>
                 <p><a href="mailto:jp@rf.com?Subject=Consulta" class="text-decoration-none">Julian Perna</a></p>
