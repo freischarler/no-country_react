@@ -199,7 +199,7 @@ const CardRecipe = ( props ) => {
                     )
                     :
                     (
-                        <div>no recipes</div>
+                        <div>NR</div>
                     )}
                      </tbody>
                 </table>
@@ -231,7 +231,7 @@ const CardRecipe = ( props ) => {
                     )
                     :
                     (
-                        <div>no recipes</div>
+                        <div>NR</div>
                     )}
                      </tbody>
                      </table>
@@ -240,7 +240,7 @@ const CardRecipe = ( props ) => {
                 <hr></hr>
                 
                 <div className='ml-2 mr-2'>
-                    <Table striped bordered hover variant="dark" >
+                    <Table striped bordered hover variant="light" >
                     <tbody> 
                     {
                             ver_comentarios ?
